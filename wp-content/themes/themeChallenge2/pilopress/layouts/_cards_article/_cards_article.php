@@ -14,7 +14,8 @@ if (!function_exists('dd')) {
 }
 
 $args = array(
-    'post_type' => 'post'
+    'post_type' => 'post',
+    'showposts' => '3'
 );
 
 $the_query = new WP_Query($args);
