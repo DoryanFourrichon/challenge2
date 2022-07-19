@@ -1,0 +1,7 @@
+.cards {
+    @apply flex flex-col items-center justify-center border-solid mt-4 w-96 p-4
+};
+
+.thumbnail{
+    @apply text-center
+}

@@ -1,0 +1,579 @@
+{
+    "key": "group_62d565dc16834",
+    "title": "cards articles",
+    "fields": [
+        {
+            "key": "field_62d565dc22269",
+            "label": "Contenu",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_62d565dc26379",
+            "label": "Introduction",
+            "name": "section_intro",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0,
+            "acfe_wysiwyg_min_height": 150,
+            "acfe_wysiwyg_max_height": "",
+            "acfe_wysiwyg_valid_elements": "",
+            "acfe_wysiwyg_custom_style": "",
+            "acfe_wysiwyg_disable_wp_style": 0,
+            "acfe_wysiwyg_autoresize": 1,
+            "acfe_wysiwyg_disable_resize": 0,
+            "acfe_wysiwyg_remove_path": 0,
+            "acfe_wysiwyg_menubar": 0,
+            "acfe_wysiwyg_transparent": 0,
+            "acfe_wysiwyg_merge_toolbar": 0,
+            "acfe_wysiwyg_custom_toolbar": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62d565dc2d83f",
+            "label": "Contenu spécifique",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "message": "Un contenu spécifique",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62d56612d189a",
+            "label": "cards article",
+            "name": "cards_article",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62d565dc32493",
+            "label": "Fin de section",
+            "name": "section_end",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0,
+            "acfe_wysiwyg_min_height": 150,
+            "acfe_wysiwyg_max_height": "",
+            "acfe_wysiwyg_valid_elements": "",
+            "acfe_wysiwyg_custom_style": "",
+            "acfe_wysiwyg_disable_wp_style": 0,
+            "acfe_wysiwyg_autoresize": 1,
+            "acfe_wysiwyg_disable_resize": 0,
+            "acfe_wysiwyg_remove_path": 0,
+            "acfe_wysiwyg_menubar": 0,
+            "acfe_wysiwyg_transparent": 0,
+            "acfe_wysiwyg_merge_toolbar": 0,
+            "acfe_wysiwyg_custom_toolbar": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62d565dc36162",
+            "label": "Configuration",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "placement": "top",
+            "endpoint": 0,
+            "no_preference": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62d565dc3aa88",
+            "label": "Mode avancé",
+            "name": "advanced_mode",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62d565dc3e6b3",
+            "label": "Taille du conteneur",
+            "name": "container_width",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "acfe_group_modal": 0,
+            "acfe_field_group_condition": 0,
+            "sub_fields": [
+                {
+                    "key": "field_62d565deab0c5",
+                    "label": "Mobile",
+                    "name": "default",
+                    "type": "select",
+                    "instructions": "Inférieur à 640px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565deb08fd",
+                    "label": "Tablette",
+                    "name": "sm",
+                    "type": "select",
+                    "instructions": "Entre 640px et 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565deb4560",
+                    "label": "Desktop",
+                    "name": "lg",
+                    "type": "select",
+                    "instructions": "Supérieur à 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565deb8b36",
+                    "label": "Mobile",
+                    "name": "default_advanced",
+                    "type": "select",
+                    "instructions": "Inférieur à 640px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565debc81d",
+                    "label": "Tablette (portrait)",
+                    "name": "sm_advanced",
+                    "type": "select",
+                    "instructions": "Entre 640px et 768px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565dec1000",
+                    "label": "Tablette (paysage)",
+                    "name": "md_advanced",
+                    "type": "select",
+                    "instructions": "Entre 768px et 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565dec4d59",
+                    "label": "Petit desktop",
+                    "name": "lg_advanced",
+                    "type": "select",
+                    "instructions": "Entre 1024px et 1280px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565dec8aa1",
+                    "label": "Desktop",
+                    "name": "xl_advanced",
+                    "type": "select",
+                    "instructions": "Entre 1280px et 1536px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62d565decd0b5",
+                    "label": "Grand desktop",
+                    "name": "2xl_advanced",
+                    "type": "select",
+                    "instructions": "Supérieur à 1536px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62d565dc3aa88",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "max": "",
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_field_group_condition": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "_pip_thumbnail": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "_pip_is_layout": 1,
+    "_pip_layout_slug": "_cards_article",
+    "_pip_render_layout": "_cards_article.php",
+    "_pip_render_style": "_cards_article.css",
+    "_pip_render_script": "_cards_article.js",
+    "field_add_config_file": 0,
+    "field_add_configuration": 1,
+    "_pip_configuration": [
+        "group_layouts_configuration"
+    ],
+    "_pip_modal_size": "medium",
+    "pip_layout_var": {
+        "row-601152580ebc5": {
+            "pip_layout_var_key": "section_intro",
+            "pip_layout_var_value": "mb-8 md:mb-16"
+        },
+        "row-62d567ad0f7a5": {
+            "pip_layout_var_key": "test",
+            "pip_layout_var_value": ""
+        },
+        "row-601152590ebc6": {
+            "pip_layout_var_key": "section_end",
+            "pip_layout_var_value": "mt-8 md:mt-16"
+        }
+    },
+    "pip_layout_vars_lock": 0,
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1658153464
+}
